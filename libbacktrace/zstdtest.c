@@ -41,6 +41,7 @@ POSSIBILITY OF SUCH DAMAGE.  */
 #include <sys/stat.h>
 
 #ifdef HAVE_ZSTD
+#define ZSTD_CLEVEL_DEFAULT 3
 #include <zstd.h>
 #endif
 
